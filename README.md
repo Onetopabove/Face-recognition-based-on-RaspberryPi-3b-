@@ -9,3 +9,15 @@
 ![图片](./硬件连接.png)
 ### 软件实现  
 摄像头采集图片 --> 预处理 --> 人脸特征探测 --> 轮廓特征提取 --> 特征值比较
+
+
+
+
+
+## Reference
+### Hardware
+[树莓派实验室](https://shumeipai.nxez.com)
+
+[Raspberry Pi 3 Model B+](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
+
+### Software
