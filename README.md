@@ -1,4 +1,25 @@
-# 项目从易到难，实现人脸的动态识别
+# 基于树莓派3b的人脸的动态检测定位
+## Outline
+- Introduction
+  - The general description of your idea/other people's ideas
+  - The highlights of your program
+    - Hardware
+    - Software
+- Platform
+  - Hardware
+  - Software
+- Implementation
+  - Hardware
+  - Software
+  - The whole system
+- Test
+  - Initial test
+  - Adjustment
+- Reference
+  - Hardware
+  - Software
+
+
 1. 实现图片的人脸检测、定位、识别
 2. 动态实现
 3. 性能优化
@@ -16,8 +37,7 @@
 
 ## Reference
 ### Hardware
-[树莓派实验室](https://shumeipai.nxez.com)
-
-[Raspberry Pi 3 Model B+](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
+- [树莓派实验室](https://shumeipai.nxez.com)
+- [Raspberry Pi 3 Model B+](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
 
 ### Software
