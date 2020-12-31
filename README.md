@@ -1,21 +1,21 @@
 # 基于树莓派3b的人脸的动态检测定位
 ## Outline
-- Introduction
+- **Introduction**
   - The general description of your idea/other people's ideas
   - The highlights of your program
     - Hardware
     - Software
-- Platform (This part aims to introduce what you have (e.g. PC, Respi, etc.))
+- **Platform** (This part aims to introduce what you have (e.g. PC, Respi, etc.))
   - Hardware (Fig.1 The real part of your RasPi)
   - Software (Fig.2 xxx)
-- Implementation
+- **Implementation**
   - The whole system (Fig.3 Flowchart of your entire structure of program)
   - Hardware (Describe the main steps for hardware)
   - Software (Demonstrate the steps of face recognition)
-- Test
+- **Test**
   - Initial test
   - Adjustment
-- Reference
+- **Reference**
   - Hardware
   - Software
 
