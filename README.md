@@ -5,13 +5,13 @@
   - The highlights of your program
     - Hardware
     - Software
-- Platform
-  - Hardware
-  - Software
+- Platform (This part aims to introduce what you have (e.g. PC, Respi, etc.))
+  - Hardware (Fig.1 The real part of your RasPi)
+  - Software (Fig.2 xxx)
 - Implementation
-  - Hardware
-  - Software
-  - The whole system
+  - The whole system (Fig.3 Flowchart of your entire structure of program)
+  - Hardware (Describe the main steps for hardware)
+  - Software (Demonstrate the steps of face recognition)
 - Test
   - Initial test
   - Adjustment
