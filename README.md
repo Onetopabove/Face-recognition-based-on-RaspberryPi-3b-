@@ -39,7 +39,7 @@
 ## Implementation
 ### The whole system
 
-![Overview](.\picture\Overview.jpg)
+![Overview](./picture/Overview.jpg)
 
 * 考虑到USB摄像头会在速度上有一定的降低，摄像头通过CSI接口与树莓派3B+相连。
 * TF卡是系统的硬盘。
