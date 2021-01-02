@@ -1,15 +1,13 @@
-# 基于树莓派3b的人脸的动态检测定位
+# 基于树莓派3b+的人脸的动态检测定位
 ## Outline
 - **Introduction**
-  - The general description of your idea/other people's ideas
-  - The highlights of your program
-    - Hardware
-    - Software
-- **Platform** (This part aims to introduce what you have (e.g. PC, Respi, etc.))
-  - Hardware (Fig.1 The real part of your RasPi)
-  - Software (Fig.2 xxx)
+  - The general description of the ideas
+  - The highlights of this program
+- **Platform** 
+  - Hardware 
+  - Software
 - **Implementation**
-  - The whole system (Fig.3 Flowchart of your entire structure of program)
+  - The whole system
   - Hardware (Describe the main steps for hardware)
   - Software (Demonstrate the steps of face recognition)
 - **Test**
@@ -19,17 +17,36 @@
   - Hardware
   - Software
 
-
+## Introduction
+- The general description of the ideas
 1. 实现图片的人脸检测、定位、识别
 2. 动态实现
 3. 性能优化
-## 第一部分
-### 硬件连接  
-树莓派作为图像处理平台  
-用另一台电脑通过VNC连接树莓派作为显示屏  
-![图片](./硬件连接.png)
-### 软件实现  
-摄像头采集图片 --> 预处理 --> 人脸特征探测 --> 轮廓特征提取 --> 特征值比较
+- The highlights of this program
+1. 简单----适用于初学图像处理相关知识
+2. 从下到上----结构足够清晰
+3. 成本低----用现有硬件
+## Platform
+### Hardware
+1. [树莓派3B+](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
+2. 500万像素的树莓派摄像头(OV5647)
+### Software
+1. [Raspberry Pi OS with desktop](https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit)
+	- Release date: December 2nd 2020
+	- Kernel version: 5.4
+	- Size: 1,177MB
+2. OpenCV
+## Implementation
+### The whole system
+
+![Overview](.\picture\Overview.jpg)
+
+* 考虑到USB摄像头会在速度上有一定的降低，摄像头通过CSI接口与树莓派3B+相连。
+* TF卡是系统的硬盘。
+* OpenCV通过CSI接口控制摄像头，获取数据后可存储至TF卡或进行处理、处理后通过VNC(服务端)发送至局域网内的VNC(客户端)。
+* 运行在树莓派上的Raspberry Pi OS承载了上述软件的需求。
+
+
 
 
 
